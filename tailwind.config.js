@@ -1,0 +1,68 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        richBlack: {
+          100: '#e7e8ea',
+          200: '#cfd1d4',
+          300: '#b6bbbf',
+          400: '#9ea4aa',
+          500: '#868d95',
+          600: '#6e767f',
+          700: '#565f6a',
+          800: '#3d4955',
+          900: '#25323f',
+          950: '#0d1b2a',
+        },
+        cambridgeBlue: {
+          100: '#f2f5f3',
+          200: '#e5eae7',
+          300: '#d8e0da',
+          400: '#cbd6ce',
+          500: '#beccc2',
+          600: '#b0c1b6',
+          700: '#a3b7aa',
+          800: '#96ad9d',
+          900: '#89a291',
+          950: '#7c9885',
+        },
+        flame: {
+          100: '#fdede9',
+          200: '#fbdcd2',
+          300: '#f9cabc',
+          400: '#f7b8a6',
+          500: '#f6a790',
+          600: '#f49579',
+          700: '#f28363',
+          800: '#f0714d',
+          900: '#ee6036',
+          950: '#ec4e20',
+        },
+        mindaro: {
+          100: '#fdfff3',
+          200: '#fbffe7',
+          300: '#faffdb',
+          400: '#f8ffcf',
+          500: '#f6ffc3',
+          600: '#f4ffb6',
+          700: '#f2ffaa',
+          800: '#f1ff9e',
+          900: '#efff92',
+          950: '#edff86',
+        },
+        ghostWhite: '#fffaff',
+      },
+      fontFamily: {
+        ubuntu: ['Ubuntu', 'sans-serif'],
+        merriweather: ['Merriweather', 'serif'],
+      },
+    },
+  },
+  plugins: [],
+};
