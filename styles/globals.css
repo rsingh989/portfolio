@@ -16,23 +16,23 @@
 
 @layer base {
   body {
-    @apply bg-ghostWhite text-richBlack-950 tracking-wide;
+    @apply bg-ghostWhite text-richBlack-950 tracking-wide font-merriweather;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-bold;
+    @apply font-bold font-ubuntu;
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl;
+    @apply text-5xl sm:text-6xl lg:text-7xl;
   }
 
   h2 {
-    @apply text-3xl sm:text-4xl;
+    @apply text-3xl sm:text-3xl lg:text-4xl;
   }
 
   li {
-    @apply cursor-pointer;
+    @apply font-ubuntu cursor-pointer;
   }
 
   button {
