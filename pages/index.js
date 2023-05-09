@@ -5,6 +5,8 @@ import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
+import Skills from '@/components/Skills';
+import Spacer from '@/components/Spacer';
 
 export default function Home() {
   return (
@@ -23,8 +25,10 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
+        <Spacer />
         <Hero />
         <About />
+        <Skills />
       </main>
     </>
   );

@@ -52,7 +52,7 @@ const About = () => {
             About Me
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-richBlack-700 max-w-[90%] lg:max-w-[80%] text-center lg:text-left">
+          <p className="py-2 text-richBlack-700 max-w-[85%] lg:max-w-[80%] text-center lg:text-left">
             I'm Raghavendra, a Product Designer and Frontend Developer
             with a passion for crafting exceptional digital
             experiences. With over two and a half years of experience
@@ -60,7 +60,7 @@ const About = () => {
             Development, I bring a unique blend of skills to every
             project.
           </p>
-          <p className="py-2 text-richBlack-700 max-w-[90%] lg:max-w-[80%] text-center lg:text-left">
+          <p className="py-2 text-richBlack-700 max-w-[85%] lg:max-w-[80%] text-center lg:text-left">
             I've worked with several startups across various
             industries throughout my career, helping them create
             amazing digital products which help digital
