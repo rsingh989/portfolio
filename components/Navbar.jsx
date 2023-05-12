@@ -110,7 +110,7 @@ const Navbar = () => {
             {/* Tagline */}
             <div className="border-b border-richBlack-300 my-8 py-2">
               <p className="text-md sm:text-lg">
-                Let's build amazing technology together.
+                Let&apos;s build amazing technology together.
               </p>
             </div>
           </div>
@@ -137,7 +137,7 @@ const Navbar = () => {
             </ul>
             <div className="pt-10 sm:pt-40">
               <p className="uppercase tracking-widest font-ubuntu text-lg text-flame-950 font-bold">
-                Let's Connect
+                Let&apos;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full">
                 <div className="bg-flame-950 rounded-full shadow-lg shadow-richBlack-300 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
