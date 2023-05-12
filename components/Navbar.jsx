@@ -82,8 +82,8 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 w-[100%] sm:w-[60%] h-screen bg-ghostWhite p-8 md:p-10 ease-in duration-500'
-              : 'fixed left-[-100%] top-0 w-[100%] sm:w-[60%] h-screen bg-ghostWhite p-8 md:p-10 ease-in duration-500'
+              ? 'fixed left-0 top-0 w-[100%] sm:w-[60%] h-screen bg-ghostWhite p-8 md:p-10 ease-in duration-500 z-50'
+              : 'fixed left-[-100%] top-0 w-[100%] sm:w-[60%] h-screen bg-ghostWhite p-8 md:p-10 ease-in duration-500 z-50'
           }
         >
           {/* Menu Items Container */}
