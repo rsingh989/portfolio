@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-ghostWhite/60 backdrop-blur-md fixed w-full h-24 shadow-md">
+      <div className="bg-ghostWhite/60 backdrop-blur-md fixed w-full h-24 shadow-md z-10">
         {/* Menu Items Container */}
         <div className="flex justify-between items-center w-full h-full px-8 2xl:px-16">
           {/* Logo */}
@@ -74,7 +74,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? 'lg:hidden fixed left-0 top-0 w-full h-screen bg-richBlack-950/60'
+            ? 'lg:hidden fixed left-0 top-0 w-full h-screen bg-richBlack-950/60 z-50'
             : ''
         }
       >
