@@ -193,14 +193,14 @@ const Skills = () => {
     //     </div>
     //   </div>
     // </div>
-    <div className="w-full lg:h-screen py-8 px-8 sm:py-32 sm:px-8 lg:p-2">
+    <div className="w-full py-8 px-8 sm:py-16 sm:px-8 lg:p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col items-center justify-center h-full lg:items-start">
         <p className="text-xl font-bold tracking-widest uppercase text-flame-950">
           Skills
         </p>
         <h2 className="pt-4 pb-8">What I Can Do</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="p-2 bg-flame-950 rounded-xl shadow-lg hover:scale-110 ease-in duration-300">
+          <div className="p-2 bg-flame-950 rounded-xl shadow-lg shadow-richBlack-300 hover:scale-110 ease-in duration-300">
             <div className="p-6 shadow-lg rounded-lg bg-ghostWhite">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -217,7 +217,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-2 bg-flame-950 rounded-xl shadow-lg hover:scale-110 ease-in duration-300">
+          <div className="p-2 bg-flame-950 rounded-xl shadow-lg shadow-richBlack-300 hover:scale-110 ease-in duration-300">
             <div className="p-6 shadow-lg rounded-lg bg-ghostWhite">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -234,7 +234,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-2 bg-flame-950 rounded-xl shadow-lg hover:scale-110 ease-in duration-300">
+          <div className="p-2 bg-flame-950 rounded-xl shadow-lg shadow-richBlack-300 hover:scale-110 ease-in duration-300">
             <div className="p-6 shadow-lg rounded-lg bg-ghostWhite">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -251,7 +251,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-2 bg-flame-950 rounded-xl shadow-lg hover:scale-110 ease-in duration-300">
+          <div className="p-2 bg-flame-950 rounded-xl shadow-lg shadow-richBlack-300 hover:scale-110 ease-in duration-300">
             <div className="p-6 shadow-lg rounded-lg bg-ghostWhite">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -268,7 +268,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-2 bg-flame-950 rounded-xl shadow-lg hover:scale-110 ease-in duration-300">
+          <div className="p-2 bg-flame-950 rounded-xl shadow-lg shadow-richBlack-300 hover:scale-110 ease-in duration-300">
             <div className="p-6 shadow-lg rounded-lg bg-ghostWhite">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -285,7 +285,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-2 bg-flame-950 rounded-xl shadow-lg hover:scale-110 ease-in duration-300">
+          <div className="p-2 bg-flame-950 rounded-xl shadow-lg shadow-richBlack-300 hover:scale-110 ease-in duration-300">
             <div className="p-6 shadow-lg rounded-lg bg-ghostWhite">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -302,7 +302,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-2 bg-flame-950 rounded-xl shadow-lg hover:scale-110 ease-in duration-300">
+          <div className="p-2 bg-flame-950 rounded-xl shadow-lg shadow-richBlack-300 hover:scale-110 ease-in duration-300">
             <div className="p-6 shadow-lg rounded-lg bg-ghostWhite">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -319,7 +319,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-2 bg-flame-950 rounded-xl shadow-lg hover:scale-110 ease-in duration-300">
+          <div className="p-2 bg-flame-950 rounded-xl shadow-lg shadow-richBlack-300 hover:scale-110 ease-in duration-300">
             <div className="p-6 shadow-lg rounded-lg bg-ghostWhite">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -336,7 +336,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-2 bg-flame-950 rounded-xl shadow-lg hover:scale-110 ease-in duration-300">
+          <div className="p-2 bg-flame-950 rounded-xl shadow-lg shadow-richBlack-300 hover:scale-110 ease-in duration-300">
             <div className="p-6 shadow-lg rounded-lg bg-ghostWhite">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -353,7 +353,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-2 bg-flame-950 rounded-xl shadow-lg hover:scale-110 ease-in duration-300">
+          <div className="p-2 bg-flame-950 rounded-xl shadow-lg shadow-richBlack-300 hover:scale-110 ease-in duration-300">
             <div className="p-6 shadow-lg rounded-lg bg-ghostWhite">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -370,7 +370,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-2 bg-flame-950 rounded-xl shadow-lg hover:scale-110 ease-in duration-300">
+          <div className="p-2 bg-flame-950 rounded-xl shadow-lg shadow-richBlack-300 hover:scale-110 ease-in duration-300">
             <div className="p-6 shadow-lg rounded-lg bg-ghostWhite">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -387,7 +387,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-2 bg-flame-950 rounded-xl shadow-lg hover:scale-110 ease-in duration-300">
+          <div className="p-2 bg-flame-950 rounded-xl shadow-lg shadow-richBlack-300 hover:scale-110 ease-in duration-300">
             <div className="p-6 shadow-lg rounded-lg bg-ghostWhite">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">

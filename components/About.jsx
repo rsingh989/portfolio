@@ -45,7 +45,7 @@ const About = () => {
     //     </div>
     //   </div>
     // </div>
-    <div className="w-full md:h-screen p-2 lg:p-16 flex items-center py-16">
+    <div className="w-full lg:h-screen p-2 lg:p-16 flex items-center py-16">
       <div className="max-w-[1240px] m-auto flex flex-col-reverse justify-between items-center lg:flex-row">
         <div className="flex flex-col items-center justify-start py-4 lg:items-start">
           <p className="uppercase text-xl font-bold tracking-widest text-flame-950">
@@ -53,25 +53,25 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-richBlack-700 max-w-[85%] lg:max-w-[80%] text-center lg:text-left">
-            I'm Raghavendra, a Product Designer and Frontend Developer
-            with a passion for crafting exceptional digital
+            I&apos;m Raghavendra, a Product Designer and Frontend
+            Developer with a passion for crafting exceptional digital
             experiences. With over two and a half years of experience
             in Product Design and recent expertise in Frontend
             Development, I bring a unique blend of skills to every
             project.
           </p>
           <p className="py-2 text-richBlack-700 max-w-[85%] lg:max-w-[80%] text-center lg:text-left">
-            I've worked with several startups across various
+            I&apos;ve worked with several startups across various
             industries throughout my career, helping them create
             amazing digital products which help digital
-            transformation. Whether it's a mobile app, website or
+            transformation. Whether it&apos;s a mobile app, website or
             software product, my keen eye for design and deep
             understanding of user-centered design principles enable me
             to create products that are not only visually appealing
             but also intuitive and user-friendly.
           </p>
         </div>
-        <div className="bg-flame-950 max-w-[75%] md:max-w-[50%] lg:w-full h-auto m-auto shadow-lg rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+        <div className="bg-flame-950 max-w-[75%] md:max-w-[50%] lg:w-full h-auto m-auto shadow-lg shadow-richBlack-300 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image
             src="/assets/rags.jpeg"
             alt="Raghavendra Singh"

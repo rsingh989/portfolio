@@ -9,10 +9,11 @@ const Hero = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm sm:text-md lg:text-lg font-bold tracking-widest text-flame-950">
-            Let's Build Something Together
+            Let&apos;s Build Something Together
           </p>
           <h1 className="py-4 text-richBlack-800">
-            Hey, I'm <span className="text-flame-950">Rags</span>.
+            Hey, I&apos;m <span className="text-flame-950">Rags</span>
+            .
           </h1>
           <h2 className="py-4 text-richBlack-950">
             Product Designer and Frontend Developer
@@ -23,7 +24,7 @@ const Hero = () => {
             unique blend of skills to the table that allows me to
             create cohesive and effective applications that not only
             look great, but also help to build and strengthen the
-            organisation's brand identity.
+            organisation&apos;s brand identity.
           </p>
           <div className="flex items-center justify-between max-w-[320px] sm:max-w-[360px] m-auto py-4">
             <div className="bg-flame-950 rounded-full shadow-lg shadow-richBlack-300 p-4 cursor-pointer hover:scale-110 ease-in duration-300">

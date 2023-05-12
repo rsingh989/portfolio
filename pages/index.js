@@ -3,10 +3,11 @@ import Image from 'next/image';
 
 // Importing Components
 import Navbar from '@/components/Navbar';
+import Spacer from '@/components/Spacer';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Skills from '@/components/Skills';
-import Spacer from '@/components/Spacer';
+import Projects from '@/components/Projects';
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <Hero />
         <About />
         <Skills />
+        <Projects />
       </main>
     </>
   );
