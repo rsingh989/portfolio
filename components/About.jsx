@@ -71,7 +71,7 @@ const About = () => {
             but also intuitive and user-friendly.
           </p>
         </div>
-        <div className="bg-flame-950 max-w-[75%] md:max-w-[50%] lg:w-full h-auto m-auto shadow-lg shadow-richBlack-300 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+        <div className="bg-flame-950 max-w-[75%] md:max-w-[50%] lg:w-full h-auto m-auto shadow-lg shadow-richBlack-300 rounded-xl flex items-center justify-center p-2 hover:scale-105 ease-in duration-300">
           <Image
             src="/assets/rags.jpeg"
             alt="Raghavendra Singh"
