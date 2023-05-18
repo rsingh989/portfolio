@@ -23,6 +23,7 @@ export default function Home() {
           name="viewport"
           content="width=device-width, initial-scale=1"
         />
+        <meta name="theme-color" content="#ec4e20" />
         <link rel="icon" href="assets/favicon.svg" />
       </Head>
       <main>
