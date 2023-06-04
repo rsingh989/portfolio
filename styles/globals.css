@@ -36,6 +36,6 @@
   }
 
   button {
-    @apply shadow-lg shadow-gray-300 rounded-xl uppercase bg-gradient-to-tr from-flame-950 to-flame-800 text-ghostWhite hover:bg-gradient-to-tr hover:from-flame-900 hover:to-flame-700;
+    @apply shadow-lg shadow-gray-300 rounded-xl uppercase bg-gradient-to-tr from-flame-950 to-flame-700 text-ghostWhite hover:bg-gradient-to-tr hover:from-flame-900 hover:to-flame-700;
   }
 }
