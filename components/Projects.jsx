@@ -11,7 +11,7 @@ import twitchImg from '../public/projects/twitch.jpg';
 
 const Projects = () => {
   return (
-    <div className="w-full py-16 px-8 lg:px-2 lg:py-24">
+    <div id="projects" className="w-full py-16 px-8 lg:px-2 lg:py-24">
       <div className="max-w-[1240px] mx-auto px-2 py-16 flex flex-col items-center justify-center h-full lg:items-start">
         <p className="text-xl font-bold tracking-widest uppercase text-flame-950">
           Projects

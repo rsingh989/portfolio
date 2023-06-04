@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -13,23 +13,43 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
   };
 
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 96) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener('scroll', handleShadow);
+  }, []);
+
   return (
     <>
-      <div className="bg-ghostWhite/60 backdrop-blur-md fixed w-full h-24 shadow-md z-10">
+      <div
+        className={
+          shadow
+            ? 'bg-ghostWhite/60 backdrop-blur-md fixed w-full h-24 shadow-md z-10'
+            : 'bg-ghostWhite/60 backdrop-blur-md fixed w-full h-24 z-10'
+        }
+      >
         {/* Menu Items Container */}
         <div className="flex justify-between items-center w-full h-full px-8 2xl:px-16">
           {/* Logo */}
-          <Image
-            src="/assets/rags.png"
-            alt="Rags"
-            width="160"
-            height="100"
-          />
+          <Link href="/">
+            <Image
+              src="/assets/rags.png"
+              alt="Rags"
+              width="160"
+              height="100"
+            />
+          </Link>
           {/* Menu Options */}
           <div>
             <ul className="hidden lg:flex">
@@ -38,22 +58,22 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="/#about">
                 <li className="ml-10 text-md uppercase hover:border-b-2 hover:border-flame-950 hover:-translate-y-0.5 transition-all duration-200">
                   About Me
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="/#skills">
                 <li className="ml-10 text-md uppercase hover:border-b-2 hover:border-flame-950 hover:-translate-y-0.5 transition-all duration-200">
                   Skills
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="/#projects">
                 <li className="ml-10 text-md uppercase hover:border-b-2 hover:border-flame-950 hover:-translate-y-0.5 transition-all duration-200">
                   Projects
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="/#contact">
                 <li className="ml-10 text-md uppercase hover:border-b-2 hover:border-flame-950 hover:-translate-y-0.5 transition-all duration-200">
                   Contact Me
                 </li>

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  scroll-behavior: smooth!important;
+}
+
 /* Font - Ubuntu */
 @font-face {
   font-family: "Ubuntu";

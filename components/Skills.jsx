@@ -193,7 +193,10 @@ const Skills = () => {
     //     </div>
     //   </div>
     // </div>
-    <div className="w-full py-8 px-8 sm:py-16 sm:px-8 lg:p-2">
+    <div
+      id="skills"
+      className="w-full py-8 px-8 sm:py-16 sm:px-8 lg:p-2"
+    >
       <div className="max-w-[1240px] mx-auto flex flex-col items-center justify-center h-full lg:items-start">
         <p className="text-xl font-bold tracking-widest uppercase text-flame-950">
           Skills

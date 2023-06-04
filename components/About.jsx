@@ -45,7 +45,10 @@ const About = () => {
     //     </div>
     //   </div>
     // </div>
-    <div className="w-full lg:h-screen p-2 lg:p-16 flex items-center py-16">
+    <div
+      id="about"
+      className="w-full lg:h-screen p-2 lg:p-16 flex items-center py-16"
+    >
       <div className="max-w-[1240px] m-auto flex flex-col-reverse justify-between items-center lg:flex-row">
         <div className="flex flex-col items-center justify-start py-4 lg:items-start">
           <p className="uppercase text-xl font-bold tracking-widest text-flame-950">
